@@ -1,4 +1,4 @@
-# IdentifyPhish 🐟
+# IdentiPhish 🐟
 This python script helps the user make a logical and not an emotion decision when coming across a phishing email.
 Prior to running, I would recommend checking the File Hash to make sure it has not been modified during installation. 
 *Important note: Windows Defender or alternative anti-virus software provider may alert you that file is potentially malicious. However, all the code used in the program is posted in the Python code file and has been converted to an .exe file for easy access. To ensure safety and intregrity of my product I always make sure to scan my developed projects with F-Suite before posting.
@@ -10,9 +10,10 @@ File Hashes:
 
 Step By Step Instructions:
 1. Open a Python Interpreter and copy the code file.
-2. Replace the example email with the email you want to check for phishing located in the user_email variable and make sure to keep a similar format witin the """ """ (tri-quotes).
-3. Run all of the cells of the code. 
-4. The code will output whether or not the email that was phishing attempt based on common phishing techniques.
+2. Format your email to be one line. I recommend us 
+3. Replace the example email with the email you want to check for phishing located in the user_email variable and make sure to keep a similar format witin the """ """ (tri-quotes).
+4. Run all of the cells of the code. 
+5. The code will output whether or not the email that was phishing attempt based on common phishing techniques.
 
 If you want to learn more about phishing attempts, I would highly recommend checking out a completely free resource at: https://caniphish.com/free-phishing-test/phishing-awareness-training#what. This link will also be in the output after your provided email is analyzed for phishing.
 
