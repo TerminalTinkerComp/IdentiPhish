@@ -1,7 +1,7 @@
 # IdentiPhish 🐟
 This python script helps the user make a logical and not an emotion decision when coming across a phishing email.
 
-Important Note: This code only provides a basic analysis of potential phishing emails. It's still important to verify the authenticity of any suspicious emails by contacting the sender directly through a different and trusted communication channel. Always verify before proceeding to take action.
+CAUTION: This code only provides a basic analysis of potential phishing emails. It's still important to verify the authenticity of any suspicious emails by contacting the sender directly through a different and trusted communication channel. Always verify before proceeding to take action.
 Prior to running, I would recommend checking the File Hash to make sure it has not been modified during installation. 
 
 Step By Step Instructions when using the .exe code File:
