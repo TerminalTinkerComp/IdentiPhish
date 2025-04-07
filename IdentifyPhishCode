@@ -1,0 +1,72 @@
+# Function that identifies whether an email is likely phishing based on certain common phishing techniques
+def identifyphish(email):
+    
+    # Any common urgency associated words
+    terms = ["urgent", "important", "critical", "pressing", "immediate", "swift", "prompt"]
+    # Based on terms within []
+    if any(term.lower() in email.lower() for term in terms):
+        print("\nThis email is likely a phishing attempt")
+        print("\nThe email includes a terms that emphasize urgency. Always take some time to verify before proceeding to take action. ")
+        print("Learn More about Phishing At: https://caniphish.com/free-phishing-test/phishing-awareness-training#what")
+
+    # Any requests of sensitive information
+    elif any(info in email.lower() for info in ["password", "account number", "pin"]):
+        print("\nThis email is likely a phishing attempt")
+        print("\nThis email asks for sensitive personal information such as PINs, account numbers, or passwords.")
+        print("Learn More about Phishing At: https://caniphish.com/free-phishing-test/phishing-awareness-training#what")
+
+    # Any suspicious URLs
+    elif "http://" in email or "https://" in email:
+        print("\nThis email is likely a phishing attempt")
+        print("\nThe email contains a URL. Remain with caution emails with links that can lead you to malicious websites. Always verify before proceeding to take action.")
+        print("Learn More about Phishing At: https://caniphish.com/free-phishing-test/phishing-awareness-training#what")
+
+    # Any Poor grammar and spelling
+    elif any(letter.islower() for letter in email) and not any(letter.isupper() for letter in email):
+        print("\nThis email is likely a phishing attempt")
+        print( "\nPoor grammar, all lower case letters are common in phishing emails. Be wary of the language used.")
+        print("Learn More about Phishing At: https://caniphish.com/free-phishing-test/phishing-awareness-training#what")
+
+    # If conditions pass, then the email is less likely to be a phishing email. But it is highly recommended to still always verify before proceeding to take action.
+    else:
+        print("\nThis email likely not a phishing attempt. However, it is still recommended to proceed with caution. Always verify before proceeding to take action.")
+        print("Learn More about Phishing At: https://caniphish.com/free-phishing-test/phishing-awareness-training#what")
+
+
+
+"************************  Change this example email with the email you want to check for phishing  ***********************"
+# Input the email to identify if it likely is a phishing attempt
+def main():
+
+    user_email =  """
+Subject: Urgent: Your Account Verification Required
+
+Dear {User},
+
+We hope this email finds you well. This is an important notice regarding your account with us.
+
+Please follow these steps to complete the verification process:
+Click on this verification link: {https://example.com/verify}
+Enter your username and password when prompted.
+Complete the security check by entering the code provided in the image.
+
+Failure to verify your account may result in your access being restricted until the verification is completed, and unfortunately, if we do not hear from you, your account might be closed due to inactivity.
+
+If you encounter any difficulties or have further questions, please do not hesitate to reach out to us at {support@example.com}
+
+Thank you for being an valued customer of {Company Name}.
+
+We look forward to hearing from you soon.
+
+Best,
+{example}
+"""
+
+
+
+
+    # List the indicators in the user's email
+    identifyphish(user_email)
+
+# Run main function
+main()
