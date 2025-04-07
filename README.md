@@ -1,10 +1,12 @@
 # IdentifyPhish 🐟
 This python script helps the user make a logical and not an emotion decision when coming across a phishing email.
 Prior to running, I would recommend checking the File Hash to make sure it has not been modified during installation. 
+
+
 File Hashes:
-SHA256: 4626c25c60a38d2f5e38df83420c9619208d4aef376bec32f317918a0149e40d
-MD5: a6451e25b9fd33086451e424777eac5e
-Once checked the file hashes, run the .exe file and follow the instructions in order to check if your email is phishing.
+- SHA256: 4626c25c60a38d2f5e38df83420c9619208d4aef376bec32f317918a0149e40d
+- MD5: a6451e25b9fd33086451e424777eac5e
+- Once checked the file hashes, run the .exe file and follow the instructions in order to check if your email is phishing.
 
 Step By Step Instructions:
 1. Open a Python Interpreter and copy the code file.
