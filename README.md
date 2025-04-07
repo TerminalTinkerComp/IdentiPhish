@@ -17,3 +17,6 @@ Step By Step Instructions:
 If you want to learn more about phishing attempts, I would highly recommend checking out a completely free resource at: https://caniphish.com/free-phishing-test/phishing-awareness-training#what. This link will also be in the output after your provided email is analyzed for phishing.
 
 Important Note: This code only provides a basic analysis of potential phishing emails. It's still important to verify the authenticity of any suspicious emails by contacting the sender directly through a different and trusted communication channel. Always verify before proceeding to take action.
+
+![image](https://github.com/user-attachments/assets/446293e5-a4fe-4cf9-b9aa-a7a63601d837)
+
