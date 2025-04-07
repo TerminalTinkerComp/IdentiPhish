@@ -2,6 +2,7 @@
 This python script helps the user make a logical and not an emotion decision when coming across a phishing email.
 
 Step By Step Instructions when using the .exe code File:
+  
   Prior to running, I would recommend checking the File Hash to make sure it has not been modified during installation. 
   *Important note: Windows Defender or alternative anti-virus software provider may alert you that file is potentially malicious. However, all the code used in the program is posted in the Python code file and has been converted to an .exe file for easy access. To ensure safety and intregrity of my product I always make sure to scan my developed projects with F-Suite   before posting.
 
