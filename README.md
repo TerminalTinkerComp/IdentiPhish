@@ -14,7 +14,6 @@ Step By Step Instructions:
 
 
 
-![image](https://github.com/user-attachments/assets/446293e5-a4fe-4cf9-b9aa-a7a63601d837)
 
 ![image](https://github.com/user-attachments/assets/a47b8853-c78f-4a46-9069-6fae29dea98b)
 
