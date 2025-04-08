@@ -19,7 +19,7 @@ Step By Step Instructions when using the .exe code File:
 
 ![image](https://github.com/user-attachments/assets/a47b8853-c78f-4a46-9069-6fae29dea98b)
 
-*Important note: Windows Defender or alternative anti-virus software provider may alert you that file is potentially malicious. However, all the code used in the program is posted in the Python code file and has been converted to an .exe file for easy access. To ensure safety and intregrity of my product I always make sure to scan my developed projects with F-Suite   before posting.
+*Important note: Windows Defender or alternative anti-virus software provider may alert you that file is potentially malicious. To ensure safety and intregrity of my product I always make sure to scan my developed projects with F-Suite before posting.
 
 File Hashes:
 - SHA256: 4626c25c60a38d2f5e38df83420c9619208d4aef376bec32f317918a0149e40d
