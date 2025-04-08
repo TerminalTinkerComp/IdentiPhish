@@ -5,7 +5,7 @@ CAUTION: This code only provides a basic analysis of potential phishing emails. 
 Prior to running, I would recommend checking the File Hash to make sure it has not been modified during installation. 
 
 Step By Step Instructions when using the .exe code File:
-  1. Install the .exe file in the directory.
+  1. Install the .exe file in the directory and internal folder to the same directory.
   2. Make sure the hashes of the installed .exe folder matches the hashes below.
   3. Format your email to be one line. I recommend using LingoJam website: https://lingojam.com/TexttoOneLine
   4. Run the installed .exe file and click run any way option.
