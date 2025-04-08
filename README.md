@@ -5,13 +5,12 @@ CAUTION: This code only provides a basic analysis of potential phishing emails. 
 Prior to running, I would recommend checking the File Hash to make sure it has not been modified during installation. 
 
 Step By Step Instructions:
-  1. Install the .exe file in the "phishinguserinput" folder along with the internal folder to the same directory.
-  2. Make sure the hashes of the installed .exe folder matches the hashes below.
-  3. Format your email to be one line. I recommend using LingoJam website: https://lingojam.com/TexttoOneLine
-  4. Run the installed .exe file and click run any way option.
-  5. Paste the email formated in one line after the message "Please enter the email you'd like to check for phishing (or type 'exit'):"
-  6. The output will state whether or not the email that was phishing attempt based on common phishing techniques.
-
+  1. Install the IdentiPhish.zip
+  2. Format your email to be one line. I recommend using LingoJam website: https://lingojam.com/TexttoOneLine
+  3. Run the installed .exe file and click run any way option.
+  4. Paste the email formated in one line after the message "Please enter the email you'd like to check for phishing (or type 'exit'):"
+  5. The output will state whether or not the email that was phishing attempt based on common phishing techniques.
+  6. Enjoy :)
 
 
 
@@ -21,6 +20,7 @@ Step By Step Instructions:
 
 *Important note: Windows Defender or alternative anti-virus software provider may alert you that file is potentially malicious. To ensure safety and intregrity of my product I always make sure to scan my developed projects with F-Suite before posting.
 
+Make sure the hashes of the installed .exe folder matches the hashes below.
 File Hashes:
 - SHA256: 4626c25c60a38d2f5e38df83420c9619208d4aef376bec32f317918a0149e40d
 - MD5: a6451e25b9fd33086451e424777eac5e
